@@ -137,9 +137,12 @@
 # print(dif)
 
 # 91
-# with open("bcbx_exam.txt", "r", encoding='UTF-8') as file:
-#     r = file.read()
-# print(r.count('bcbx'))
+with open("bcbx_exam.txt", "r", encoding='UTF-8') as file:
+    r = file.read()
+print(r.count('bcbx'))
+
+print("测试从pycharm上传代码到GitHub上")
+
 
 
 
