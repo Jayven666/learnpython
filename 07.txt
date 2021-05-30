@@ -1,0 +1,15 @@
+# 1.提醒用户输入自己的英文名字，然后保存到字典中（以name为key）,将用户输入的英文名字翻转，继续保存到刚才的字典中（以new_name为key）
+# 将字典中用户的正常的英文姓名赋值给变量real_name,告知客户“您的英文名字是：” + 变量,“您的英文名字翻转是：” + 字典里获取
+# # 创建一个空字典
+# dic = {}
+# en_name = input("请输入英文名：")
+# # 添加键值对到dic字典
+# dic['name'] = en_name
+# # 反转英文名
+# en_name_reverse = en_name[::-1]
+# # 添加键值对到dic字典
+# dic['new_name'] = en_name_reverse
+# # 将姓名赋值给real_name
+# real_name = en_name
+# # 输出
+# print("您的英文名是:%s\n您的英文名字反转是:%s" % (real_name,en_name_reverse))
