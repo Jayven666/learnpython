@@ -21,6 +21,7 @@ dic['name'] = en_name
 dic['new_name'] = reverse_name
 real_name = en_name  # 重新赋值
 print("您的英文名是：%s\n您的英文名反转是：%s" % (real_name, dic['new_name']))
+print("这就是结果")
 
 # 2.提醒用户依次输入数学、语文、英语、综合四门的成绩，按照输入的成绩排序，告诉用户“您的最高的一门成绩是：”xx （不用告诉用户是哪一科）
 # # 创建一个空字典
