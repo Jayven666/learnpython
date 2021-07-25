@@ -1,6 +1,6 @@
 # 数字
 # num = 10
-# print(type(num),num)
+# print(type(num), num)
 # num1 = '10'
 # print(type(num1),num1)
 # num2 = 10.00
@@ -41,7 +41,7 @@
 # a="ab"*4
 # print(a.count("ab"))
 
-#格式化
+# 格式化
 # date = 10
 # name = "jayven"
 # print("今天是%d号,%s,欢迎登录" %(date,name))
@@ -70,10 +70,10 @@
 # b=2
 # print(a%b)
 
-# listA = [1,2,3,4]
+# listA = [1, 2, 3, 4]
 # print(listA)
 # print(listA[-1])
-# tupleB = (1,2,3,4)
+# tupleB = (1, 2, 3, 4)
 # print(tupleB)
 #
 # t=(2)
@@ -137,7 +137,7 @@
 # b=a.pop("ip")
 # print(b)
 # print(a)
-#键为元组，元组里含有字典也不能作为键
+# 键为元组，元组里含有字典也不能作为键
 # b={({1:"123"},2,3):"123"}
 # print(b)
 
@@ -169,9 +169,9 @@
 # name="jayven"
 # print(id(name),type(name),name)
 
-# if 3>2:
+# if 3 > 2:
 #     print('ojbk')
-# elif 4>5:
+# elif 4 > 5:
 #     print('nook')
 # else:
 #     print('nicemff')
@@ -186,11 +186,10 @@
 # name = "jayven"
 # n = 1
 # for b in name:
-#     print("这是第%d次循环:" %n,end="")
+#     print("这是第%d次循环:" % n, end="")
 #     print(b)
-#     n+=1
-# list = [1,2,3,"a","b","c"]
-# m = 1
+#     n += 1
+# list = [1,2,3,"a","b","c"]# m = 1
 # for a in list:
 #     print("这是第%d次循环：" %m,end="")
 #     print(a)
@@ -240,11 +239,3 @@
 #     print(list[5])
 # except IndexError:
 #     print("ERROR")
-
-
-
-
-
-
-
-

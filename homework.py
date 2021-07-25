@@ -14,6 +14,14 @@
 # # 输出
 # print("您的英文名是:%s\n您的英文名字反转是:%s" % (real_name,en_name_reverse))
 
+dic = {}  # 创建一个新字典
+en_name = input("请输入英文名：")
+reverse_name = en_name[::-1]  # 反转
+dic['name'] = en_name
+dic['new_name'] = reverse_name
+real_name = en_name  # 重新赋值
+print("您的英文名是：%s\n您的英文名反转是：%s" % (real_name, dic['new_name']))
+
 # 2.提醒用户依次输入数学、语文、英语、综合四门的成绩，按照输入的成绩排序，告诉用户“您的最高的一门成绩是：”xx （不用告诉用户是哪一科）
 # # 创建一个空字典
 # dic = {}
@@ -137,13 +145,8 @@
 # print(dif)
 
 # 91
-with open("bcbx_exam.txt", "r", encoding='UTF-8') as file:
-    r = file.read()
-print(r.count('bcbx'))
-
-print("测试从pycharm上传代码到GitHub上")
-
-
-
-
-
+# with open("bcbx_exam.txt", "r", encoding='UTF-8') as file:
+#     r = file.read()
+# print(r.count('bcbx'))
+#
+# print("测试从pycharm上传代码到GitHub上")
