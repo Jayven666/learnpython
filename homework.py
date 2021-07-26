@@ -14,15 +14,6 @@
 # # 输出
 # print("您的英文名是:%s\n您的英文名字反转是:%s" % (real_name,en_name_reverse))
 
-dic = {}  # 创建一个新字典
-en_name = input("请输入英文名：")
-reverse_name = en_name[::-1]  # 反转
-dic['name'] = en_name
-dic['new_name'] = reverse_name
-real_name = en_name  # 重新赋值
-print("您的英文名是：%s\n您的英文名反转是：%s" % (real_name, dic['new_name']))
-print("这就是结果")
-
 # 2.提醒用户依次输入数学、语文、英语、综合四门的成绩，按照输入的成绩排序，告诉用户“您的最高的一门成绩是：”xx （不用告诉用户是哪一科）
 # # 创建一个空字典
 # dic = {}
@@ -149,5 +140,23 @@ print("这就是结果")
 # with open("bcbx_exam.txt", "r", encoding='UTF-8') as file:
 #     r = file.read()
 # print(r.count('bcbx'))
-#
-# print("测试从pycharm上传代码到GitHub上")
+
+# 找出100内所有素数
+# ls = []  # 创建一个新列表
+# for i in range(100):
+#     if i < 2:
+#         continue
+#     # 难点：
+#     # 1.range(2,2) 返回空值，直接跳过循环，未执行break,else语句会被执行
+#     # 2.for.j循环执行完毕后，如果未找到满足i%j==0的数值，证明其是素数，break不会被执行，else会被执行；如果找到i%j==0的数值，证明其不是素数，break会被执行，else则不会被执行；
+#     for j in range(2, i):
+#         if i % j == 0:
+#             break
+#     else:
+#         ls.append(i)
+# print(ls)
+# # 求和
+# s = 0
+# for k in ls:
+#     s += k
+# print(s)
